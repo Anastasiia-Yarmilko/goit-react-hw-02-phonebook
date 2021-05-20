@@ -1,6 +1,5 @@
 .label {
   margin-left: 40px;
-  margin-bottom: 10px;
   font-weight: 600;
   font-size: 20px;
 }
@@ -8,6 +7,9 @@
 .input {
   display: block;
   margin-left: 43px;
+  margin-top: 10px;
+  width: 200px;
+  height: 20px;
 }
 
 .input:focus {

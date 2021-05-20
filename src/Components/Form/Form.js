@@ -21,7 +21,7 @@ class Form extends Component {
       event.preventDefault();
       const { addContact } = this.props;
       const contact = {
-        id: this.state.number,
+        id: this.state.id,
         name: this.state.name,
         number: this.state.number,
       };
@@ -55,7 +55,7 @@ class Form extends Component {
               value={number}
               name="number"
               onChange={this.onHandleChange}
-              placeholder=""
+              placeholder="Enter your phone number"
               className={styles.input}
               required
             />

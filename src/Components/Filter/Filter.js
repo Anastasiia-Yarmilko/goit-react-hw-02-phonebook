@@ -10,6 +10,7 @@ const Filter = ({ filter, searchContact }) => {
       <input
         className={styles.input}
         onChange={event => searchContact(event.target.value)}
+        placeholder="Enter your search request"
         value={filter}
       />
     </label>

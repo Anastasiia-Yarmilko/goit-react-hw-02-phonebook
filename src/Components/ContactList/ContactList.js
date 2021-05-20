@@ -10,7 +10,7 @@ const ContactList = ({ searchContact, deleteContact }) => {
           <li className={styles.item} key={id}>
             <p className={styles.contact}>
               {' '}
-              - {name}: {number}
+              {name}: {number}
             </p>
             <button
               type="button"
