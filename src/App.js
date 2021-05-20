@@ -32,7 +32,7 @@ class App extends Component {
   onHandleNewContact = contact => {
     let { contacts } = this.state;
     if (contacts.find(({ name }) => name === contact.name)) {
-      alert(`${contact.name} is already in contacts`);
+      alert(`${contact.name} has been already added`);
       return;
     }
     contacts = [...contacts, contact];
